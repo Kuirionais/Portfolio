@@ -1,15 +1,6 @@
 import React, { Component } from "react";
-import "./Assets/css/default.min.css";
 
-//Components
-import Header from "./components/headerComponent/header";
-import Footer from "./components/footerComponent/footer";
-import Homepage from "./components/pages/homePage";
-import Nav from "./components/nav/nav";
-//Includes
-import "./Assets/css/default.min.css";
-
-class App extends Component {
+class Nav extends Component {
   componentDidMount() {
     window.addEventListener("scroll", () => {
       const isTop = window.scrollY > 100;
@@ -28,18 +19,14 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div id="nav" className="nav">
+        <div className="nav_text">
+          <h1>nav component</h1>
        
-       
-        <Nav/>
-
-        <Header />
-        <Homepage />
-        <Footer />
+        </div>
       </div>
     );
   }
 }
 
-export default App;
-
+export default Nav;
