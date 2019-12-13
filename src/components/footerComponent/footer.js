@@ -54,7 +54,21 @@ class Footer extends Component {
                 .
                 .
                 .
-                .
+                .       .<br/>
+                .<br/>
+                .<br/>                .<br/>
+                .<br/>
+                .<br/>
+                .<br/>                .<br/>
+                .<br/>
+                .<br/>       .<br/>
+                .<br/>
+                .<br/>                .<br/>
+                .<br/>
+                .<br/>
+                .<br/>                .<br/>
+                .<br/>
+                .<br/>
                 .
                 .
 
@@ -91,6 +105,7 @@ class Footer extends Component {
                 .
                 .
                 .
+
             </footer>
         )
     }
