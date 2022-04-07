@@ -6,8 +6,8 @@ class Cv extends Component {
     return (
       <div class="border">
         <Nav></Nav>
-        <div id="container">
-          <img src={require("../../Assets/img/cv2.png")} class="centered" alt="alt" style={{ "margin-right": "10%", "margin-left": "10%" }} />
+        <div id="container" style={{ "text-align": "center" }}>
+          <img src={require("../../Assets/img/cv2.png")} class="centered" alt="alt" style={{ "margin-right": "10%", "margin-left": "10%", width: "80%" }} />
         </div>
       </div>
     );
