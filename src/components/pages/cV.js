@@ -4,12 +4,12 @@ import Nav from "../headerComponent/nav";
 class Cv extends Component {
   render() {
     return (
-
-        <div>
-            <Nav></Nav>
-        <img class="cv" src={require('../../Assets/img/cv.png')} alt="qsd"></img>
+      <div class="border">
+        <Nav></Nav>
+        <div id="container">
+          <img src={require("../../Assets/img/cv2.png")} class="centered" alt="alt" style={{ "margin-right": "10%", "margin-left": "10%" }} />
         </div>
-    
+      </div>
     );
   }
 }

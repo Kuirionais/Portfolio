@@ -13,6 +13,7 @@
 html {
   margin: 0;
   padding: 0;
+ 
 }
 
 header {
@@ -103,11 +104,13 @@ footer {
   bottom: 0%;
 }
 
-
-.cv{
+.border {
+ 
   height: 100%;
   width: 100%;
+
 }
+
 
 .centertext{
   text-align:center
@@ -147,3 +150,19 @@ aside {
   padding-top: 10%;
   grid-column: 2; grid-row: 2;
 }
+
+#container{
+  width: 30%;
+  left: 0px;
+  right: 0px;
+}
+
+#container img{
+  width: 30%;
+  margin: 10%;
+}
+
+#container .centered{
+  margin-top: 10%;
+}
+
