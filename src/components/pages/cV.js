@@ -7,7 +7,7 @@ class Cv extends Component {
 
         <div>
             <Nav></Nav>
-        <img class="cv" src={require('../../Assets/img/cv.png')} alt="qsd"></img>
+        <img class="cv" src={require('../../Assets/img/cv2.png')} alt="qsd"></img>
         </div>
     
     );
